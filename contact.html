@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-image: url("pic1.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      padding-top: 10%;
+      
+    }
+    
+    h1 {
+      text-align: center;
+      color:aqua
+    }
+    
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      color:aqua;
+    }
+    
+    label {
+      display: block;
+      margin-top: 10px;
+      padding-top: 10px ;
+    }
+    
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 16px;
+      
+      
+    }
+    
+    button {
+      background-color:rgb(184, 206, 206);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    
+    button:hover {
+      background-color: #52ded9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Me</h1>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Your message" required></textarea>
+    
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
